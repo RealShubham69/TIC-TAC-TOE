@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*This is where we program the body */
+body{
+    background-color: #f25757;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;;
+}
+
+/*This is where we program the heading*/
+h1{
+    color: #f2e863;
+    font-size: 8vmin;
+}
+/*This is where we program the outer container */
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*This is where we program the actual game buttons area */
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+/*This is where we program the actual game buttons */
+.box{
+    background-color: #ffffff;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 2PX solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #e94560;
+}
+
+/*This is where we program the Reset button box*/
+.resetBtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #f2e863;
+    color: #f25757;
+    border-radius: 1rem;
+    border: none;
+    border: 2px solid black;
+}
+
+/*This is where we program the result*/
+.newBtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #f2e863;
+    color: #f25757;
+    border-radius: 1rem;
+    border: none;
+    border: 2px solid black;
+}
+
+.Winner{
+    color: #FFFFFF;
+    font-size: 7vmin;
+    font-weight: bold;
+}
+
+.message{
+    height: 15vmin;
+}
+
+.hide{
+    display: none;
+}
+
